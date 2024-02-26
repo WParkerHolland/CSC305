@@ -1,1 +1,1 @@
-# CSC305
+# CSC305 Term Project

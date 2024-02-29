@@ -24,7 +24,7 @@ community include:
   and learning from the experience
 * Focusing on what is best not just for us as individuals, but for the overall
   community
-* No phone use during meeting time, phones off the table
+* No phone use during meeting time, view cell-phone usage policy below
 
 Examples of unacceptable behavior include:
 
@@ -36,6 +36,10 @@ Examples of unacceptable behavior include:
   without their explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
+
+### Cell-phone Usage
+* No cell-phones will be allowed during meeting times
+* Cell-phones are to be put away during meeting times, not allowed on the table-top
 
 ## Enforcement Responsibilities
 

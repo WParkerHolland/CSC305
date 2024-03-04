@@ -1,1 +1,4 @@
-
+QuickWrite Lean Business Model
+The lean canvas approach is a concise and efficient method for developing and refining business ideas. It condenses the key components of a business plan into a single document, focusing on essential elements such as customer segments, solutions, problems, and cost structure. This approach is designed for iteration, allowing us to quickly adapt our plan based on feedback from the market. By providing a framework for systematic and iterative refinement, the lean canvas allows us to build a more viable and sustainable project while minimizing wasted time and resources.
+[Link to Lean Canvas Website](https://www.leanfoundry.com/tools/lean-canvas)
+[Link to business plan](https://docs.google.com/presentation/d/1Haf3LUitvjmKifIeHv3qWEZZVXkgG3V-zVh5q_BdVng/edit?usp=sharing)

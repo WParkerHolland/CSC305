@@ -1,4 +1,1 @@
-- Observation 4:
-  - Observation Statement: We observed that if people are given a more difficult prompt, they would like the time to scale with its difficulty.
-  - Supporting Data: In our survey, we asked a question "Should the time limit scale based off of the complexity of the writing prompt?". Out of the 49 respondents, 46 of them answered "yes" to that question, while only 3 answered "no".
-  - Team Action: To act on this data, we will make sure to increase the time complexity if we offer the option of a more difficult prompt.
+

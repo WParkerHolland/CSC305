@@ -1,11 +1,12 @@
+- Observation 1:
+  - Observation Statement: Users prefer easier creative writing prompts versus more complex.
+  - Supporting Data: Our team survey asked if the user, under a time constraint, would you be more willing to answer an easier prompt or a more complex prompt? The majority, 89.8%, of the 49 participants prefered an easier prompt versus 10.2% of participants prefered a more complex prompt.
+  - Team Action (if any): As a team we will implement less complex writing prompts 
+
 - Observation 2:
-
   - Observation Statement: When prompting the users about how they would like to be able to post their writing prompts, the majority of the users prefered anonymous posting.
-
   - Supporting Data: Out of the four options in the question, 57.1% chose Publicly, 89.8% chose Anonymously, 67.3% chose To Friends Only and only 40.8% chose Privately.
-
   - Team Action (if any): This data will determine the order in which each feature will be implemented. Since Anonymously was selected by almost 90% of users, that will be first followed by To Friends Only, Publicly and Privately.
-
 
 - Observation 3:
   - Observation Statement: More users wanted prompts to be 10 or 15 minutes as opposed to five.

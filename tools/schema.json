@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": {
+      "type": "object",
+      "properties": {
+        "birthday": {
+          "type": "string",
+          "pattern": "^\\d{2}/\\d{2}/\\d{4}$"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "username": {
+          "type": "string"
+        },
+        "pronouns": {
+          "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "responses": {
+            "type": "object",
+            "properties": {
+                "prompt": {
+                    "type": "string"
+                },
+                "response": {
+                    "type": "string"
+                },
+                "date": {
+                    "type": "string",
+                    "pattern": "^\\d{2}/\\d{2}/\\d{4}$"
+                }
+            },
+            "required": ["prompt", "response", "date"]
+        }
+      },
+      "required": ["username"]
+    }
+  }

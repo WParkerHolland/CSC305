@@ -31,7 +31,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(238, 192, 61, 1)"
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -45,55 +45,9 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(238, 192, 61, 1)"
+        "BackgroundColor": "rgba(255, 255, 255, 1)"
     },
     "children": [
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "Capture.PNG",
-                "resizeMode": "stretch",
-                "Height": 116,
-                "Width": 127,
-                "Visible": true,
-                "X": 117.73148345947266,
-                "Y": 307.73150634765625,
-                "RelativeX": 117.73148345947266,
-                "RelativeY": 307.73150634765625,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "4.648910854990633%",
-                    "top": "1.0952987913499452%",
-                    "display": "flex"
-                },
-                "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
-                "position": "absolute",
-                "edgeOffsets": 307.73150634765625
-            },
-            "children": [],
-            "id": "d1f2a5d5-b753-43e2-97ea-038d33dd3f28",
-            "thunkableVersion": 444,
-            "bindings": null,
-            "name": "Image4"
-        },
         {
             "type": "Label",
             "translatedName": "Label",

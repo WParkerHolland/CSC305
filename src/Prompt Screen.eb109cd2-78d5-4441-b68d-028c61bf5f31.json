@@ -1,4 +1,5 @@
 {
+    "id": "eb109cd2-78d5-4441-b68d-028c61bf5f31",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,6 +55,64 @@
         "tabNavigationOptions": {}
     },
     "children": [
+        {
+            "type": "List Viewer",
+            "translatedName": "Simple List",
+            "reactType": "ListView",
+            "properties": {
+                "TextItems": [
+                    "Profile",
+                    "Sign Out"
+                ],
+                "TextItemsColor": "rgba(176, 176, 176, 1)",
+                "TextItemsBackgroundColor": "rgba(0, 0, 0, 1)",
+                "TextItemsFontSize": 16,
+                "ShowArrow": true,
+                "Height": 667,
+                "Width": 375,
+                "Visible": false,
+                "X": 0,
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "ResizeMode": "STRETCH",
+                "Justification": "center",
+                "Alignment": "center",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "6.53333740234375%",
+                    "top": "36.49737631184408%",
+                    "display": "none",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 1)"
+                },
+                "ParentId": "329feeea-ad19-4f21-8db8-755058927968",
+                "position": "absolute",
+                "edgeOffsets": 0
+            },
+            "children": [],
+            "id": "aa40059d-3cff-4372-9fa6-14034848c55c",
+            "thunkableVersion": 447,
+            "bindings": null,
+            "name": "hamburgerList1"
+        },
         {
             "type": "TextInput",
             "translatedName": "Text Input",
@@ -461,10 +520,9 @@
             "children": [],
             "id": "500f5394-fda2-4939-863c-7a80b6e03c22",
             "thunkableVersion": 447,
-            "name": "Label15"
+            "name": "hamburgerLabel1"
         }
     ],
-    "id": "eb109cd2-78d5-4441-b68d-028c61bf5f31",
     "thunkableVersion": 447,
     "bindings": null,
     "name": "Prompt Screen"

@@ -31,7 +31,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(238, 192, 61, 1)"
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -45,7 +45,7 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(238, 192, 61, 1)"
+        "BackgroundColor": "rgba(255, 255, 255, 1)"
     },
     "children": [
         {
@@ -444,7 +444,7 @@
             "children": [],
             "id": "bcb1c89b-49b5-45e2-bf71-8e39cea05942",
             "thunkableVersion": 443,
-            "name": "signIn"
+            "name": "signInButton"
         },
         {
             "type": "TextInput",

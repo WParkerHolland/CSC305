@@ -1,4 +1,5 @@
 {
+    "id": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -6,7 +7,7 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
-        "BackgroundColor": "rgba(238, 192, 61, 1)",
+        "BackgroundColor": "rgba(255, 255, 255, 1)",
         "Justification": "center",
         "Alignment": "center",
         "Visible": true,
@@ -31,7 +32,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(238, 192, 61, 1)"
+            "backgroundColor": "rgba(255, 255, 255, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -62,8 +63,8 @@
             "properties": {
                 "Hint": "Type here",
                 "CustomFont": "",
-                "Height": 32,
-                "Width": 217,
+                "Height": 34,
+                "Width": 219,
                 "Visible": true,
                 "X": 148,
                 "Y": 249,
@@ -119,7 +120,7 @@
             "children": [],
             "id": "ded1152e-d4b8-4791-9391-5d9b9fcaddb8",
             "thunkableVersion": 447,
-            "name": "Text_Input3"
+            "name": "passConfBox2"
         },
         {
             "type": "Label",
@@ -482,7 +483,7 @@
             "children": [],
             "id": "69f93e67-e398-4ddb-9cae-177f81f47a05",
             "thunkableVersion": 443,
-            "name": "signUp1"
+            "name": "signIn1"
         },
         {
             "type": "Button",
@@ -610,13 +611,13 @@
             "properties": {
                 "Hint": "Type here",
                 "CustomFont": "",
-                "Height": 34,
-                "Width": 214,
+                "Height": 36,
+                "Width": 216,
                 "Visible": true,
-                "X": 147.99769592285156,
-                "Y": 207.99769592285156,
-                "RelativeX": 147.99769592285156,
-                "RelativeY": 207.99769592285156,
+                "X": 147.9875030517578,
+                "Y": 207.9875030517578,
+                "RelativeX": 147.9875030517578,
+                "RelativeY": 207.9875030517578,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -661,7 +662,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 207.99769592285156,
+                "edgeOffsets": 207.9875030517578,
                 "placeholder": "Type here"
             },
             "children": [],
@@ -676,13 +677,13 @@
             "properties": {
                 "Hint": "Type here",
                 "CustomFont": "",
-                "Height": 32,
-                "Width": 212,
+                "Height": 34,
+                "Width": 214,
                 "Visible": true,
-                "X": 148,
-                "Y": 161,
-                "RelativeX": 148,
-                "RelativeY": 161,
+                "X": 148.8000030517578,
+                "Y": 161.8000030517578,
+                "RelativeX": 148.8000030517578,
+                "RelativeY": 161.8000030517578,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -726,7 +727,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 161,
+                "edgeOffsets": 161.8000030517578,
                 "placeholder": "Type here"
             },
             "children": [],
@@ -932,7 +933,6 @@
             "name": "Label12"
         }
     ],
-    "id": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c",
     "thunkableVersion": 447,
     "bindings": null,
     "name": "Sign Up Screen"

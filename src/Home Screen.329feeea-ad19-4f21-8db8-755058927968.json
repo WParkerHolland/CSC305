@@ -1,4 +1,5 @@
 {
+    "id": "329feeea-ad19-4f21-8db8-755058927968",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,6 +55,63 @@
         "tabNavigationOptions": {}
     },
     "children": [
+        {
+            "type": "List Viewer",
+            "translatedName": "Simple List",
+            "reactType": "ListView",
+            "properties": {
+                "TextItems": [
+                    "Profile",
+                    "Sign Out"
+                ],
+                "TextItemsColor": "rgba(176, 176, 176, 1)",
+                "TextItemsBackgroundColor": "rgba(0, 0, 0, 1)",
+                "TextItemsFontSize": 16,
+                "ShowArrow": true,
+                "Height": 667,
+                "Width": 375,
+                "Visible": false,
+                "X": 0,
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "ResizeMode": "STRETCH",
+                "Justification": "center",
+                "Alignment": "center",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "6.53333740234375%",
+                    "top": "36.49737631184408%",
+                    "display": "none",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0, 0, 0, 1)"
+                },
+                "ParentId": "329feeea-ad19-4f21-8db8-755058927968",
+                "position": "absolute",
+                "edgeOffsets": 0
+            },
+            "children": [],
+            "id": "380f38fa-4743-4cf2-a1c0-4f4543feafd7",
+            "thunkableVersion": 447,
+            "name": "hamburgerList"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
@@ -311,8 +369,8 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 55,
-                "Width": 51,
+                "Height": 57,
+                "Width": 53,
                 "Visible": true,
                 "X": 312,
                 "Y": 16,
@@ -344,12 +402,12 @@
                 "capInsets": {},
                 "ParentId": "329feeea-ad19-4f21-8db8-755058927968",
                 "position": "absolute",
-                "edgeOffsets": 16.000000000000004
+                "edgeOffsets": 16
             },
             "children": [],
             "id": "77151e2d-330c-4f6e-abda-6e840d6f3d16",
             "thunkableVersion": 447,
-            "name": "Image7"
+            "name": "profileImage"
         },
         {
             "type": "TextInput",
@@ -480,10 +538,9 @@
             "children": [],
             "id": "c96c4268-02be-4e32-a525-68d5e530915c",
             "thunkableVersion": 447,
-            "name": "Label14"
+            "name": "hamburgerLabel"
         }
     ],
-    "id": "329feeea-ad19-4f21-8db8-755058927968",
     "thunkableVersion": 447,
     "name": "Home Screen"
 }

@@ -1,4 +1,5 @@
 {
+    "id": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -6,6 +7,7 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
+        "BackgroundColor": "rgba(238, 192, 61, 1)",
         "Justification": "center",
         "Alignment": "center",
         "Visible": true,
@@ -39,65 +41,282 @@
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
+        "TabNavigatorIcon": {},
+        "DrawerNavigationOptions": {},
+        "StackNavigationOptions": {
+            "headerStyle": {}
+        },
         "ScreenOrientation": "portrait",
         "DesignerHeight": 667,
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(238, 192, 61, 1)"
+        "navigationOptions": {
+            "headerStyle": {}
+        },
+        "tabNavigationOptions": {}
     },
     "children": [
         {
-            "type": "Switch",
-            "translatedName": "Switch",
-            "reactType": "Switch",
+            "type": "TextInput",
+            "translatedName": "Text Input",
             "properties": {
-                "value": true,
+                "Hint": "Type here",
+                "CustomFont": "",
+                "Height": 32,
+                "Width": 217,
                 "Visible": true,
-                "tintColor": "rgba(176, 176, 176, 100)",
-                "onTintColor": "rgba(208, 215, 231, 100)",
-                "thumbTintColor": "rgba(93, 122, 252, 100)",
-                "offThumbTintColor": "rgba(248, 249, 251, 100)",
-                "Height": 20,
-                "Width": 40,
-                "X": 163,
-                "Y": 116,
-                "RelativeX": 163,
-                "RelativeY": 116,
+                "X": 148,
+                "Y": 249,
+                "RelativeX": 148,
+                "RelativeY": 249,
                 "ResizeMode": "STRETCH",
-                "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
-                "position": "absolute",
-                "edgeOffsets": 116,
                 "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 16,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 15,
+                    "paddingRight": 0,
+                    "backgroundColor": "rgba(248, 249, 251, 100)",
+                    "borderWidth": 0,
+                    "borderRadius": 5,
+                    "borderColor": "rgba(0, 0, 0, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
                     "position": "absolute",
-                    "left": "40.400632913452725%",
-                    "top": "11.174082128833177%",
+                    "left": "35.199997965494795%",
+                    "top": "32.06366177262931%",
                     "display": "flex"
-                }
+                },
+                "editable": true,
+                "onChangeText": "function(e){this.properties.Text=e}",
+                "placeholderTextColor": "rgba(117, 117, 117, 1)",
+                "clearButtonMode": "never",
+                "underlineColorAndroid": "rgba(0, 0, 0, 0)",
+                "ParentId": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c",
+                "position": "absolute",
+                "edgeOffsets": 249,
+                "placeholder": "Type here"
             },
             "children": [],
-            "id": "a46ff7f2-51f6-4b50-8cf0-894d9453fa25",
-            "thunkableVersion": 443,
-            "name": "saveSwitch"
+            "id": "ded1152e-d4b8-4791-9391-5d9b9fcaddb8",
+            "thunkableVersion": 447,
+            "name": "Text_Input3"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Save Information",
+                "Text": "Confirm Password:",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(0, 0, 0, 1)",
+                "Height": 34,
+                "Width": 136,
+                "Visible": true,
+                "X": 8,
+                "Y": 251,
+                "RelativeX": 8,
+                "RelativeY": 251,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 16,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "0%",
+                    "top": "32.163605697151425%",
+                    "lineHeight": 1,
+                    "display": "flex"
+                },
+                "ParentId": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c",
+                "position": "absolute",
+                "edgeOffsets": 251,
+                "children": "Confirm Password:"
+            },
+            "children": [],
+            "id": "29d2ed25-8506-491e-b1e8-58997ebc7402",
+            "thunkableVersion": 447,
+            "name": "Label13"
+        },
+        {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
+                "Text": "QuickWrite",
+                "FontSize": 29,
+                "Font": "",
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(0, 0, 0, 1)",
+                "Height": 47,
+                "Width": 170,
+                "Visible": true,
+                "X": 29,
+                "Y": 24,
+                "RelativeX": 29,
+                "RelativeY": 24,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(0, 0, 0, 1)",
+                    "fontSize": 29,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "2.4888875325520834%",
+                    "top": "0%",
+                    "lineHeight": 1,
+                    "display": "flex"
+                },
+                "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
+                "position": "absolute",
+                "edgeOffsets": 24,
+                "children": "QuickWrite"
+            },
+            "children": [],
+            "id": "f593e42b-ce96-4b8d-bd1f-eed796d72ac7",
+            "thunkableVersion": 447,
+            "name": "Label8"
+        },
+        {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "resizeMode": "stretch",
+                "Height": 83,
+                "Width": 115,
+                "Visible": true,
+                "X": 246,
+                "Y": 6,
+                "RelativeX": 246,
+                "RelativeY": 6,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "62.57777506510417%",
+                    "top": "0.2295727136431784%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
+                "position": "absolute",
+                "edgeOffsets": 6
+            },
+            "children": [],
+            "id": "b62f18a7-c381-4a2f-9538-18a79a6cc10e",
+            "thunkableVersion": 447,
+            "name": "Image6"
+        },
+        {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
+                "Text": "Sign Up",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 26,
-                "Width": 149,
+                "Height": 32,
+                "Width": 72,
                 "Visible": true,
-                "X": 112,
-                "Y": 84,
-                "RelativeX": 112,
-                "RelativeY": 84,
+                "X": 148,
+                "Y": 117,
+                "RelativeX": 148,
+                "RelativeY": 117,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -137,33 +356,33 @@
                 },
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 84.9953727722168,
-                "children": "Save Information"
+                "edgeOffsets": 117,
+                "children": "Sign Up"
             },
             "children": [],
-            "id": "55fa3ec4-c94d-4aaf-96fc-014d99999657",
+            "id": "d10f006e-7d82-46c6-ace9-1c2828b7419e",
             "thunkableVersion": 443,
-            "name": "Label4"
+            "name": "signUpLabel"
         },
         {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "",
+                "Text": "Error Label",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(233, 21, 21, 1)",
                 "TextAlign": "center",
-                "Height": 117,
-                "Width": 313,
+                "Height": 46,
+                "Width": 319,
                 "Visible": true,
-                "X": 29.733797073364258,
-                "Y": 428.7384338378906,
-                "RelativeX": 29.733797073364258,
-                "RelativeY": 428.7384338378906,
+                "X": 27,
+                "Y": 297,
+                "RelativeX": 27,
+                "RelativeY": 297,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(233, 21, 21, 1)",
@@ -204,31 +423,31 @@
                 },
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 428.7384338378906,
-                "children": ""
+                "edgeOffsets": 297,
+                "children": "Error Label"
             },
             "children": [],
-            "id": "cea8ee4e-b562-4bca-a6de-d8b49c58cb64",
+            "id": "0d1a5ddd-d51e-4fb9-bd68-2d470f6faef4",
             "thunkableVersion": 443,
-            "name": "errorLabel"
+            "name": "errorLabel1"
         },
         {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Sign Up Instead",
+                "Text": "Back to Sign In",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(166, 167, 171, 1)",
-                "Height": 42,
-                "Width": 164,
+                "Height": 44,
+                "Width": 166,
                 "Visible": true,
                 "X": 103,
-                "Y": 364,
+                "Y": 433,
                 "RelativeX": 103,
-                "RelativeY": 364,
+                "RelativeY": 433,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -259,18 +478,18 @@
                 "Disabled": false,
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 364.9884338378906
+                "edgeOffsets": 433.99999999999994
             },
             "children": [],
-            "id": "77420a48-a907-41a3-a2fc-f50603dd5090",
+            "id": "69f93e67-e398-4ddb-9cae-177f81f47a05",
             "thunkableVersion": 443,
-            "name": "signUp"
+            "name": "signUp1"
         },
         {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "Sign In",
+                "Text": "Sign Up",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "Font": "",
@@ -279,10 +498,10 @@
                 "Height": 44,
                 "Width": 206,
                 "Visible": true,
-                "X": 83,
-                "Y": 310,
-                "RelativeX": 83,
-                "RelativeY": 310,
+                "X": 84,
+                "Y": 363,
+                "RelativeX": 84,
+                "RelativeY": 363,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -313,12 +532,12 @@
                 "Disabled": false,
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 310.9953918457031
+                "edgeOffsets": 363.99999999999994
             },
             "children": [],
-            "id": "bcb1c89b-49b5-45e2-bf71-8e39cea05942",
+            "id": "0a0a31ed-310e-4964-98ec-40c3ed58ba2f",
             "thunkableVersion": 443,
-            "name": "signIn"
+            "name": "signUpButton"
         },
         {
             "type": "TextInput",
@@ -381,10 +600,10 @@
                 "placeholder": "Type here"
             },
             "children": [],
-            "id": "75516d30-e9cb-40ad-a3b5-53a42385f2a0",
+            "id": "68252305-73c4-4afe-a0f6-5d1f9f5353a1",
             "thunkableVersion": 443,
             "bindings": null,
-            "name": "passConfBox"
+            "name": "passConfBox1"
         },
         {
             "type": "TextInput",
@@ -447,10 +666,10 @@
                 "placeholder": "Type here"
             },
             "children": [],
-            "id": "73f16d65-10ab-49a8-aaa7-0d7b8061742a",
+            "id": "18a05bf2-4138-4b81-ae1f-98acd93b6dd4",
             "thunkableVersion": 443,
             "bindings": null,
-            "name": "passBox"
+            "name": "passBox1"
         },
         {
             "type": "TextInput",
@@ -512,9 +731,9 @@
                 "placeholder": "Type here"
             },
             "children": [],
-            "id": "5f1ccc40-4d1f-492b-9b10-7c356d5d6f76",
+            "id": "150106cf-edc9-4345-b8dd-1aecf57bddba",
             "thunkableVersion": 443,
-            "name": "emailBox"
+            "name": "emailBox1"
         },
         {
             "type": "Label",
@@ -577,10 +796,10 @@
                 "children": "Confirm Password:"
             },
             "children": [],
-            "id": "5ce52ded-2a0a-497d-b6d4-5302b9b00132",
+            "id": "1ef1a073-48cd-4acb-8d61-cdd68df263fb",
             "thunkableVersion": 443,
             "bindings": null,
-            "name": "Label3"
+            "name": "Label10"
         },
         {
             "type": "Label",
@@ -643,10 +862,10 @@
                 "children": "Password:"
             },
             "children": [],
-            "id": "8c615fd1-fbee-4ba0-909c-003803ff1f6e",
+            "id": "0169e0cd-4b7d-4042-9272-cfc8ec165305",
             "thunkableVersion": 443,
             "bindings": null,
-            "name": "Label2"
+            "name": "Label11"
         },
         {
             "type": "Label",
@@ -709,12 +928,12 @@
                 "children": "Email Address:"
             },
             "children": [],
-            "id": "eb2d8011-a8b3-4d71-a6ef-1540bb2de662",
+            "id": "e35fa9ad-01be-4aae-8414-055b6ffbd5ae",
             "thunkableVersion": 443,
-            "name": "Label1"
+            "name": "Label12"
         }
     ],
-    "id": "7b893bd4-904b-4838-8c3f-1091779f25da",
-    "thunkableVersion": 443,
+    "thunkableVersion": 447,
+    "bindings": null,
     "name": "Sign Up Screen"
 }

@@ -1,1 +1,6 @@
+# Metrics
+[Link to HEART Metric](https://docs.google.com/presentation/d/1ccZrlNomaB_Ng-DnsWWArlJt7yqb5rKwC3AfFnG9MFw/edit?usp=sharing)
 
+- Net Promoter Score - After the user finishes responding to the daily prompt, they will be sent to a confirmation screen that will ask them to rate their experience on a scale of 1 to 10. Responding to this question will be optional so it is not too intrusive. We will need to add a new screen in thunkable for this purpose.
+- User Rating Frequency - This will be a measurement of how often each user rates their experience after responding to the daily prompt. We will collect this by recording how many times the user rates the app and comparing that number to the total number of prompts they have responded to.
+- Average Prompt Rating - Alongside asking the user to rate their experience after responding to the prompt, we will ask them to rate the prompt they just responded to on a scale of 1 to 10. This would also be optional, but it would let us know if the prompts we are providing the users are good or not. We will need to add another text box and some code to the confirmation screen, and possibly a cloud function to do the calculations to avoid slowing down the user's phone.

@@ -486,7 +486,7 @@
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(255, 255, 255, 1)",
                 "Height": 60,
                 "Width": 36,
                 "Visible": true,
@@ -496,7 +496,7 @@
                 "RelativeY": 10.666666984558105,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(255, 255, 255, 1)",
                     "fontSize": 11,
                     "fontStyle": "normal",
                     "textShadowOffset": {},

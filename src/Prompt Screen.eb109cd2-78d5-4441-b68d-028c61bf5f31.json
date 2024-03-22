@@ -174,7 +174,8 @@
                 "ParentId": "eb109cd2-78d5-4441-b68d-028c61bf5f31",
                 "position": "absolute",
                 "edgeOffsets": 163,
-                "placeholder": "Type here"
+                "placeholder": "Type here",
+                "autoFocus": false
             },
             "children": [],
             "id": "1de1737d-5ca9-400f-b768-cd16b03d606e",
@@ -191,7 +192,7 @@
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(255, 255, 255, 1)",
                 "TextAlign": "center",
                 "Height": 74,
                 "Width": 320,
@@ -202,7 +203,7 @@
                 "RelativeY": 95.33333587646484,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(255, 255, 255, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -468,7 +469,7 @@
                 "Font": "",
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
+                "Color": "rgba(255, 255, 255, 1)",
                 "Height": 60,
                 "Width": 36,
                 "Visible": true,
@@ -478,7 +479,7 @@
                 "RelativeY": 10.666666984558105,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(255, 255, 255, 1)",
                     "fontSize": 11,
                     "fontStyle": "normal",
                     "textShadowOffset": {},

@@ -1,1 +1,6 @@
-
+**A/B Test Name:** Sign In to Prompt Screen
+**User Story Number:** 4
+**Metric:** Click Through Rate to Answering the Prompt
+**Hypothesis:** My hypothesis is that users may not want to click through enough screens to get to the point where they answer the daily prompt. Therefore, I want to see if making the user encounter the prompt writing screen upon signing in will increase the number of users who write a prompt each day.
+**Experiment -** The experiment will be completed by taking a group of users that do not respond to the prompt on a daily basis. Half of the users will be given the app with the variation while the other half will keep the base version of the app. After a week or so, the click through rates of the two groups will be compared to see which one is higher.
+**Variations-** In the main app, when the user first signs in they are brought to the home screen with multiple places to go to from there. The variation fot this experiment will be when the user first signs in they will be brought directly to the prompt screen for the day if they have not filled out the prompt yet. This should encourage the users to fill out the daily prompt.

@@ -64,7 +64,8 @@
             "properties": {
                 "TextItems": [
                     "Profile",
-                    "Sign Out"
+                    "Sign Out",
+                    "Rate App"
                 ],
                 "TextItemsColor": "rgba(176, 176, 176, 1)",
                 "TextItemsBackgroundColor": "rgba(0, 0, 0, 1)",

@@ -218,6 +218,12 @@
                         "id": "eb109cd2-78d5-4441-b68d-028c61bf5f31"
                     },
                     {
+                        "id": "72b1f4f5-6ed0-4a9e-9514-93ec9bfe0f2c"
+                    },
+                    {
+                        "id": "a0b087f5-7f58-4608-a2d2-6d73de04d783"
+                    },
+                    {
                         "id": "7862293c-49f9-44b7-8c69-0229d90f0bd4"
                     },
                     {
@@ -330,7 +336,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "4",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {

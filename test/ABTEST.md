@@ -42,3 +42,21 @@ Users in this group will be presented with an additional screen for signing out,
 **Experiment -** The experiment will be conducted by taking the users that finish the daily prompt every day, with half of these users getting prompted to rate the app after every few prompts. The other half won't get prompted at all, and will have the option to rate the app whenever they open the drop down menu in the home screen. After 7 daily prompts, we can compare the NPS scores between the variations and take into account the amount of reviews that we get from each variation.
 
 **Variations-** The main app will have the users that don't get prompts and can simply choose to rate the app whenever they please, and the one variation of the app will include the random "rate my app!" pop up after every 2-3 prompts that they answer in the prompt screen. This will give us a better idea on how we should conduct our surveys for our NPS score.
+
+
+A/B Test Name: Prompt Viewing
+User Story Number: 4
+Metric (from the HEART grid): NPS
+Hypothesis: I think that people will prefer to see the prompt and have to click on it to see the user rather than see the user and click on it to see their prompt
+
+Experiment - The setup will be two similar screens, one where it provides the user with the prompts and allows them to click on it to find the user, the other provides the user and allows them to click on it to see the prompts.
+
+For the audience, 50% of users will receive a different view prompts screen than the default one. 
+
+The rationale behind it is that there are two main ways the data is sorted and that the the view prompts screen could be set up. By making one for each we can see how users like each version.
+
+To track this, we will randomly provide the users with either screen 1 or screen 2 without them knowing which one they have. After they use it a few times we will prompt them with a question asking if they are satisfied with the way its set up, or if they have suggestions on how it should be set up. 
+
+Variations - The two variations I want to do are:
+The user is presented with a list of boxes each with a different user prompt in it, and the user can scroll and read them as they want. If they want to see more prompts by the user they can click on them to view their profile.
+The user is presented with a list of boxes each with a different username in it with the first couple sentences of the prompt to give them an idea what they wrote about. They can then decide to click on it to view the whole prompt or view their profile.

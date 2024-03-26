@@ -30,3 +30,15 @@ Users in this group will be presented with an additional screen for signing out,
 **Experiment -** The experiment will be completed by taking a group of users that do not respond to the prompt on a daily basis. Half of the users will be given the app with the variation while the other half will keep the base version of the app. After a week or so, the click through rates of the two groups will be compared to see which one is higher.
 
 **Variations-** In the main app, when the user first signs in they are brought to the home screen with multiple places to go to from there. The variation fot this experiment will be when the user first signs in they will be brought directly to the prompt screen for the day if they have not filled out the prompt yet. This should encourage the users to fill out the daily prompt.
+
+**A/B Test Name:** Rating Pop Up
+
+**User Story Number:** 4
+
+**Metric:** NPS
+
+**Hypothesis:** My hypothesis is that users may get annoyed when they are prompted with a "rate my app!" pop-up after finishing a prompt like most other apps. Users tend to only rate the app if they have to or if they are randomly prompted with it unless they had an extreme experience, but giving the user the option to rate the app whenever they want could be an appreciated app that could lead to more positive reviews.
+
+**Experiment -** The experiment will be conducted by taking the users that finish the daily prompt every day, with half of these users getting prompted to rate the app after every few prompts. The other half won't get prompted at all, and will have the option to rate the app whenever they open the drop down menu in the home screen. After 7 daily prompts, we can compare the NPS scores between the variations and take into account the amount of reviews that we get from each variation.
+
+**Variations-** The main app will have the users that don't get prompts and can simply choose to rate the app whenever they please, and the one variation of the app will include the random "rate my app!" pop up after every 2-3 prompts that they answer in the prompt screen. This will give us a better idea on how we should conduct our surveys for our NPS score.

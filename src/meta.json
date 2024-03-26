@@ -368,6 +368,11 @@
                     "scope": "APP",
                     "name": "tempJSON",
                     "screenId": "eb109cd2-78d5-4441-b68d-028c61bf5f31"
+                },
+                "fbb9672e-8bf7-4010-85a4-7dcf0101505f": {
+                    "scope": "APP",
+                    "name": "adopted",
+                    "screenId": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c"
                 }
             },
             "defaultDesignerDevice": "PHONE",

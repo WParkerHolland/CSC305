@@ -393,11 +393,6 @@
                     "name": "prompts",
                     "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
                 },
-                "16c28d23-01b9-4b34-aa93-8206d55bc793": {
-                    "scope": "APP",
-                    "name": "date",
-                    "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
-                },
                 "8926f65b-bfa9-41f0-af59-31757909a8ff": {
                     "scope": "APP",
                     "name": "responsesJSON",

@@ -401,6 +401,56 @@
                     "scope": "APP",
                     "name": "adopted",
                     "screenId": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c"
+                },
+                "394e7edd-653f-4895-88f5-73625022bed1": {
+                    "scope": "CLOUD",
+                    "name": "prompts",
+                    "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
+                },
+                "8926f65b-bfa9-41f0-af59-31757909a8ff": {
+                    "scope": "APP",
+                    "name": "responsesJSON",
+                    "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
+                },
+                "276bccbf-5d02-4994-9bee-eab38f178090": {
+                    "scope": "APP",
+                    "name": "promptsCounter",
+                    "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
+                },
+                "5bbae3f7-4b19-445f-862b-51559de498c9": {
+                    "scope": "APP",
+                    "name": "totalPrompts",
+                    "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
+                },
+                "1babef2c-13fe-4721-87da-ea940e2b15de": {
+                    "scope": "CLOUD",
+                    "name": "metrics",
+                    "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
+                },
+                "829f3b72-cd14-435f-a146-e746d6a6b650": {
+                    "scope": "APP",
+                    "name": "thePrompt",
+                    "screenId": "c07a29e4-b958-40ee-9c65-1eeb1c42bd50"
+                },
+                "f7f786fd-7b1e-44c6-9d0d-e908b49e52c1": {
+                    "scope": "APP",
+                    "name": "COUNTDOWN",
+                    "screenId": "eb109cd2-78d5-4441-b68d-028c61bf5f31"
+                },
+                "cebe5a11-8c7f-4ca5-b012-414aa2857b76": {
+                    "scope": "APP",
+                    "name": "MINUTES",
+                    "screenId": "eb109cd2-78d5-4441-b68d-028c61bf5f31"
+                },
+                "647104e8-ee43-46df-a759-62969cb31812": {
+                    "scope": "APP",
+                    "name": "SECONDS",
+                    "screenId": "eb109cd2-78d5-4441-b68d-028c61bf5f31"
+                },
+                "469fc474-08d0-41c9-a29d-96a605012362": {
+                    "scope": "APP",
+                    "name": "CanWrite",
+                    "screenId": "eb109cd2-78d5-4441-b68d-028c61bf5f31"
                 }
             },
             "defaultDesignerDevice": "PHONE",

@@ -1,4 +1,5 @@
 {
+    "id": "8d2b8d06-8104-43d0-bc4f-eed874a53c1f",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -440,7 +441,6 @@
             "name": "UsernameInput"
         }
     ],
-    "id": "8d2b8d06-8104-43d0-bc4f-eed874a53c1f",
     "thunkableVersion": 450,
     "name": "Username Screen"
 }

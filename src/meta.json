@@ -131,7 +131,7 @@
                     "signedUrlExpirationTime": 1712250133005
                 }
             },
-            "backendUpgradeVersion": 24,
+            "backendUpgradeVersion": 25,
             "blockly": {
                 "7b893bd4-904b-4838-8c3f-1091779f25da": {
                     "xml": "",
@@ -391,7 +391,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "5",
             "totalStar": "0",
             "starAction": "star",
             "variables": {

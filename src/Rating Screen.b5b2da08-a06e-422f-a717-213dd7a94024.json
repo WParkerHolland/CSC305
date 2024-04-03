@@ -316,7 +316,7 @@
             "properties": {
                 "Value": 2.5,
                 "Count": "5",
-                "Icon": "ios-star",
+                "Icon": "star",
                 "Visible": true,
                 "Direction": "row",
                 "ReadOnly": false,

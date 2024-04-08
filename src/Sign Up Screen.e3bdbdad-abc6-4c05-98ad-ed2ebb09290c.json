@@ -63,13 +63,13 @@
             "properties": {
                 "Picture": "TopBanner.png",
                 "resizeMode": "stretch",
-                "Height": 115,
-                "Width": 379,
+                "Height": 108,
+                "Width": 381,
                 "Visible": true,
-                "X": -6,
-                "Y": 0,
-                "RelativeX": -6,
-                "RelativeY": 0,
+                "X": 1,
+                "Y": 1,
+                "RelativeX": 1,
+                "RelativeY": 1,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -96,7 +96,7 @@
                 "capInsets": {},
                 "ParentId": "e3bdbdad-abc6-4c05-98ad-ed2ebb09290c",
                 "position": "absolute",
-                "edgeOffsets": 0
+                "edgeOffsets": 1
             },
             "children": [],
             "id": "f7420d58-f28f-45ae-9a69-72a3f954df74",
@@ -304,7 +304,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Error Label",
+                "Text": "",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
@@ -359,7 +359,7 @@
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
                 "edgeOffsets": 297,
-                "children": "Error Label"
+                "children": ""
             },
             "children": [],
             "id": "0d1a5ddd-d51e-4fb9-bd68-2d470f6faef4",

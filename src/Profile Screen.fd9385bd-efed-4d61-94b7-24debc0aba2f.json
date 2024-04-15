@@ -62,7 +62,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "",
+                "Text": "Label",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
@@ -116,7 +116,7 @@
                 "ParentId": "fd9385bd-efed-4d61-94b7-24debc0aba2f",
                 "position": "absolute",
                 "edgeOffsets": 522,
-                "children": ""
+                "children": "Label"
             },
             "children": [],
             "id": "b46125f3-411a-4348-8b24-fef81e4c1894",

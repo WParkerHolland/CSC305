@@ -230,7 +230,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "",
+                "Text": "Error Label",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
@@ -285,7 +285,7 @@
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
                 "edgeOffsets": 254,
-                "children": ""
+                "children": "Error Label"
             },
             "children": [],
             "id": "cea8ee4e-b562-4bca-a6de-d8b49c58cb64",

@@ -1,4 +1,5 @@
 {
+    "id": "d08a5866-b964-4be1-815b-e0cfd1070a78",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -560,7 +561,6 @@
             "name": "hamburgerLabel3"
         }
     ],
-    "id": "d08a5866-b964-4be1-815b-e0cfd1070a78",
     "thunkableVersion": 451,
     "bindings": null,
     "name": "Other Profile Screen"

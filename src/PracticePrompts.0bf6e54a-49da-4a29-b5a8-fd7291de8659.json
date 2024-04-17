@@ -1,4 +1,5 @@
 {
+    "id": "0bf6e54a-49da-4a29-b5a8-fd7291de8659",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -510,7 +511,6 @@
             "name": "Text_Input7"
         }
     ],
-    "id": "0bf6e54a-49da-4a29-b5a8-fd7291de8659",
     "thunkableVersion": 452,
     "name": "PracticePrompts"
 }

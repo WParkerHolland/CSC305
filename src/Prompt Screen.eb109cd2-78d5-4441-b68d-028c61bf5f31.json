@@ -62,7 +62,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Submit Anonymously?",
+                "Text": "Anonymous Submission",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
@@ -118,7 +118,7 @@
                 "ParentId": "eb109cd2-78d5-4441-b68d-028c61bf5f31",
                 "position": "absolute",
                 "edgeOffsets": 548,
-                "children": "Submit Anonymously?"
+                "children": "Anonymous Submission"
             },
             "children": [],
             "id": "83542d0f-96c9-4fdf-b075-47297ce40b37",

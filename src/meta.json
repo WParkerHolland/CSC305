@@ -516,6 +516,16 @@
                     "scope": "APP",
                     "name": "anon",
                     "screenId": "eb109cd2-78d5-4441-b68d-028c61bf5f31"
+                },
+                "ee929de4-c8d0-4767-adc1-0401076d4e5f": {
+                    "scope": "APP",
+                    "name": "anonCounter",
+                    "screenId": "d08a5866-b964-4be1-815b-e0cfd1070a78"
+                },
+                "76a81b66-1b42-4551-acc1-9213d5818712": {
+                    "scope": "APP",
+                    "name": "anonCounter",
+                    "screenId": "fd9385bd-efed-4d61-94b7-24debc0aba2f"
                 }
             },
             "defaultDesignerDevice": "PHONE",

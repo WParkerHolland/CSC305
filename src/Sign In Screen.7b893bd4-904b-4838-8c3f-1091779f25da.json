@@ -105,12 +105,12 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(255, 255, 255, 1)",
-                "Height": 33,
-                "Width": 105,
+                "Height": 35,
+                "Width": 107,
                 "Visible": true,
-                "X": 135,
+                "X": 134,
                 "Y": 404,
-                "RelativeX": 135,
+                "RelativeX": 134,
                 "RelativeY": 404,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -148,12 +148,16 @@
                     "left": "36.0888916015625%",
                     "top": "56.45146176911544%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "fontWeight": "bold",
+                    "textAlign": "center"
                 },
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
                 "edgeOffsets": 404,
-                "children": "New User?"
+                "children": "New User?",
+                "FontWeight": "bold",
+                "TextAlign": "center"
             },
             "children": [],
             "id": "d1d18434-cefc-4c0c-a3db-639cd21de8be",
@@ -213,12 +217,14 @@
                     "left": "10.924414166453715%",
                     "top": "3.127647733885238%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "fontWeight": "bold"
                 },
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
                 "edgeOffsets": 117,
-                "children": "Sign In"
+                "children": "Sign In",
+                "FontWeight": "bold"
             },
             "children": [],
             "id": "55fa3ec4-c94d-4aaf-96fc-014d99999657",
@@ -239,7 +245,7 @@
                 "TextAlign": "center",
                 "Height": 46,
                 "Width": 319,
-                "Visible": true,
+                "Visible": false,
                 "X": 28,
                 "Y": 254,
                 "RelativeX": 28,
@@ -279,7 +285,7 @@
                     "left": "32.791757069310414%",
                     "top": "62.06566068907356%",
                     "lineHeight": 1,
-                    "display": "flex",
+                    "display": "none",
                     "textAlign": "center"
                 },
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
@@ -305,10 +311,10 @@
                 "Height": 44,
                 "Width": 166,
                 "Visible": true,
-                "X": 97,
-                "Y": 439,
-                "RelativeX": 97,
-                "RelativeY": 439,
+                "X": 108,
+                "Y": 438,
+                "RelativeX": 108,
+                "RelativeY": 438,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -333,13 +339,13 @@
                     "top": "61.59922028569423%",
                     "display": "flex"
                 },
-                "FontBold": false,
+                "FontBold": true,
                 "FontItalic": false,
                 "Raised": false,
                 "Disabled": false,
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 439.99999999999994
+                "edgeOffsets": 438.00000000000006
             },
             "children": [],
             "id": "77420a48-a907-41a3-a2fc-f50603dd5090",
@@ -352,16 +358,16 @@
             "properties": {
                 "Text": "Sign In",
                 "TextColor": "#FFFFFF",
-                "FontSize": 16,
+                "FontSize": 20,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(246, 168, 37, 1)",
                 "Height": 44,
                 "Width": 206,
                 "Visible": true,
-                "X": 83,
+                "X": 84,
                 "Y": 310,
-                "RelativeX": 83,
+                "RelativeX": 84,
                 "RelativeY": 310,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -387,13 +393,13 @@
                     "top": "47.506072029617194%",
                     "display": "flex"
                 },
-                "FontBold": false,
+                "FontBold": true,
                 "FontItalic": false,
                 "Raised": false,
                 "Disabled": false,
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
-                "edgeOffsets": 310.9953918457031
+                "edgeOffsets": 310
             },
             "children": [],
             "id": "bcb1c89b-49b5-45e2-bf71-8e39cea05942",
@@ -715,12 +721,16 @@
                     "left": "7.190965378161109%",
                     "top": "20.71007401461405%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "textAlign": "right",
+                    "fontWeight": "bold"
                 },
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
                 "edgeOffsets": 207.99769592285156,
-                "children": "Password:"
+                "children": "Password:",
+                "TextAlign": "right",
+                "FontWeight": "bold"
             },
             "children": [],
             "id": "8c615fd1-fbee-4ba0-909c-003803ff1f6e",
@@ -742,10 +752,10 @@
                 "Height": 31,
                 "Width": 129,
                 "Visible": true,
-                "X": 8.993056297302246,
-                "Y": 162.99769592285156,
-                "RelativeX": 8.993056297302246,
-                "RelativeY": 162.99769592285156,
+                "X": 12,
+                "Y": 162,
+                "RelativeX": 12,
+                "RelativeY": 162,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 255, 255, 1)",
@@ -781,12 +791,16 @@
                     "left": "7.190965378161109%",
                     "top": "20.71007401461405%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "textAlign": "right",
+                    "fontWeight": "bold"
                 },
                 "ParentId": "7b893bd4-904b-4838-8c3f-1091779f25da",
                 "position": "absolute",
                 "edgeOffsets": 162.99769592285156,
-                "children": "Email Address:"
+                "children": "Email Address:",
+                "TextAlign": "right",
+                "FontWeight": "bold"
             },
             "children": [],
             "id": "eb2d8011-a8b3-4d71-a6ef-1540bb2de662",

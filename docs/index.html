@@ -30,6 +30,20 @@
 
     <img src="https://github.com/WParkerHolland/CSC305/blob/main/logos/TopBanner.png?raw=true" alt="Top Banner" class="banner">
 
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.getElementsByClassName('page');
+            for (let i = 0; i < pages.length; i++) {
+                pages[i].classList.remove('active');
+            }
+
+            // Show the selected page
+            const page = document.getElementById(pageId);
+            page.classList.add('active');
+        }
+    </script>
+    
     <div>
         <button onclick="showPage('home');">Home</button>
         <button onclick="showPage('app_screenshots');">App Screenshots</button>
@@ -74,18 +88,6 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-
-        function showPage(pageId) {
-            // Hide all pages
-            const pages = document.getElementsByClassName('page');
-            for (let i = 0; i < pages.length; i++) {
-                pages[i].classList.remove('active');
-            }
-
-            // Show the selected page
-            const page = document.getElementById(pageId);
-            page.classList.add('active');
-        }
     </script>
 </body>   
 </html>

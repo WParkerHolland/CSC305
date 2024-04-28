@@ -10,6 +10,14 @@
             width: 100%;
             height: auto;
         }
+
+        .page {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
     </style>
     <title>Welcome to QuickWrite</title>
     <!-- Add Firebase SDK -->
@@ -21,13 +29,25 @@
 <body>
 
     <img src="https://github.com/WParkerHolland/CSC305/blob/main/logos/TopBanner.png?raw=true" alt="Top Banner" class="banner">
-    <h1>Test website</h1>
-    <iframe src="https://thunkable.site/w/rv-PqFo93_nLs9CzvO3FE" title="QuickWrite" height="1000" width="500"></iframe>
 
     <div>
-        <button onclick="window.location.href = 'index.html';">Home</button>
-        <button onclick="window.location.href = 'app_screenshots.html';">App Screenshots</button>
-        <button onclick="window.location.href = 'user_documentation.html';">User Documentation</button>
+        <button onclick="showPage('home');">Home</button>
+        <button onclick="showPage('app_screenshots');">App Screenshots</button>
+        <button onclick="showPage('user_documentation');">User Documentation</button>
+    </div>
+
+    <div id="home" class="page active">
+        <!-- Content for the Home page -->
+        <h1>Home Screen</h1>
+        <iframe src="https://thunkable.site/w/rv-PqFo93_nLs9CzvO3FE" title="QuickWrite" height="1000" width="500"></iframe>
+    </div>
+
+    <div id="app_screenshots" class="page">
+        <!-- Content for the App Screenshots page -->
+    </div>
+
+    <div id="user_documentation" class="page">
+        <!-- Content for the User Documentation page -->
     </div>
 
     <script type="module">
@@ -53,6 +73,18 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-      </script>
+
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.getElementsByClassName('page');
+            for (let i = 0; i < pages.length; i++) {
+                pages[i].classList.remove('active');
+            }
+
+            // Show the selected page
+            const page = document.getElementById(pageId);
+            page.classList.add('active');
+        }
+    </script>
 </body>   
 </html>

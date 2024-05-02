@@ -40,15 +40,15 @@
 
     <script>
         function showPage(pageId) {
-            // Hide all pages
-            const pages = document.getElementsByClassName('page');
-            for (let i = 0; i < pages.length; i++) {
-                pages[i].classList.remove('active');
-            }
-
-            // Show the selected page
-            const page = document.getElementById(pageId);
-            page.classList.add('active');
+        // Hide all pages
+        const pages = document.querySelectorAll('.page');
+        pages.forEach(page => {
+            page.classList.remove('active');
+        });
+    
+        // Show the selected page
+        const page = document.getElementById(pageId);
+        page.classList.add('active');
         }
     </script>
     

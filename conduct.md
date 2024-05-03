@@ -176,7 +176,7 @@ For answers to common questions about this code of conduct, see the FAQ at
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
 
-![parkerSign](src/parkerSign.jpg)
-![ryanSign](src/signature.jpg)
-![aaronSign](src/IMG_2846.jpg)
-![mattSign](src/IMG_2657.jpg)
+![parkerSign](docs/parkerSign.jpg)
+![ryanSign](docs/signature.jpg)
+![aaronSign](docs/IMG_2846.jpg)
+![mattSign](docs/IMG_2657.jpg)

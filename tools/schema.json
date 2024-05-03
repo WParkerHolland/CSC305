@@ -1,43 +1,85 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "additionalProperties": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "metrics": {
       "type": "object",
       "properties": {
-        "birthday": {
-          "type": "string",
-          "pattern": "^\\d{2}/\\d{2}/\\d{4}$"
+        "date": {
+          "type": "object",
+          "properties": {
+            "dailyAdopted": { "type": "integer" },
+            "promptsWritten": { "type": "integer" }
+          },
+          "required": ["dailyAdopted", "promptsWritten"]
         },
-        "image": {
-          "type": "string",
-          "format": "uri"
-        },
-        "username": {
-          "type": "string"
-        },
-        "pronouns": {
-          "type": "string"
-        },
-        "description": {
-            "type": "string"
-        },
-        "responses": {
-            "type": "object",
-            "properties": {
-                "prompt": {
-                    "type": "string"
-                },
-                "response": {
-                    "type": "string"
-                },
-                "date": {
-                    "type": "string",
-                    "pattern": "^\\d{2}/\\d{2}/\\d{4}$"
-                }
-            },
-            "required": ["prompt", "response", "date"]
+        "userTotal": { "type": "integer" }
+      },
+      "required": ["date", "userTotal"]
+    },
+    "practicePrompts": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "prompts": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "object",
+          "properties": {
+            "prompt": { "type": "string" },
+            "responses": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "required": ["prompt", "responses"]
         }
       },
-      "required": ["username"]
+      "required": ["date"]
+    },
+    "rating": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9_-]+$": {
+          "type": "object",
+          "properties": {
+            "reason": { "type": "string" },
+            "stars": { "type": "integer" }
+          },
+          "required": ["reason", "stars"]
+        }
+      }
+    },
+    "userNames": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9_-]+$": {
+          "type": "object",
+          "properties": {
+            "userID": { "type": "string" }
+          },
+          "required": ["userID"]
+        }
+      }
+    },
+    "users": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9_-]+$": {
+          "type": "object",
+          "properties": {
+            "lastLogin": { "type": "string" },
+            "username": { "type": "string" },
+            "responses": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "required": ["lastLogin", "username", "responses"]
+        }
+      }
     }
-  }
+  },
+  "required": ["metrics", "practicePrompts", "prompts", "rating", "userNames", "users"]
+}

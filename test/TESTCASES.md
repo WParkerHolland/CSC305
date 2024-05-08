@@ -8,6 +8,8 @@ US4: https://docs.google.com/presentation/d/1ddGZlOVvJddo1LMmh07oUFdN3Oz7bVhMZg_
 
 US6: https://docs.google.com/presentation/d/1W9NAQAsqWn0xqSX_o1LC_ordjF19Ukhr1aC5WHvoSkM/edit?usp=sharing
 
+US7: https://docs.google.com/presentation/d/1p7skEXDPcd6NdDCOGpIz44WncWXa1nw7kfjg958m_D8/edit?usp=sharing
+
 US8: https://docs.google.com/presentation/d/1YiLlrc7BMAZSmGJm55qqWPdS-Do__83U3kk9vp-D56A/edit?usp=sharing
 
 US9: https://docs.google.com/presentation/d/1oSyCe-eC8SgmWMJSv0p1oRW7Pf5Qgf-JHLCE2iJmH8s/edit?usp=sharing
